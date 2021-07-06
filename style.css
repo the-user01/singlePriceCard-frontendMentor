@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(204, 43%, 93%);
+}
+
+main{
+    position: absolute;
+    top: 25%;
+    height: 20rem;
+    width: 30rem;
+}
+
+.container{
+    background-color: white;
+    height: 10rem;
+    padding: 10px 15px 5px 10px; 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.container h1{
+    padding: 5px;
+    color: hsl(179, 62%, 43%);
+}
+
+.container p{
+    padding: 10px;
+}
+
+.text-color{
+    color: hsl(71, 73%, 54%) ;
+}
+
+h3{
+    color: hsl(204, 43%, 93%);
+}
+
+p{
+    font-size: 16px;
+    color:  hsl(218, 22%, 67%);
+    font-weight: 400;
+}
+
+span{
+    font-size: 23px;
+}
+
+.container2{
+    height: 10rem;
+    display: grid;
+    grid-template-columns:15rem 15rem; 
+}
+
+.container2 ul{
+    padding: 10px;
+    list-style: none;
+}
+
+li{
+    font-size: 16px;
+    color: hsl(204, 43%, 93%);
+}
+
+.first-div{
+    background-color: hsl(179, 62%, 43%);
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+}
+
+.first-div h3{
+    padding-bottom: 5px;
+}
+
+.first-div p{
+    padding: 5px;
+    color: hsl(204, 43%, 93%);
+}
+
+.button{
+    height: 2.5rem;
+    width: 8.5rem;
+    text-align: center;
+    margin: 1.5rem 0rem 0rem 1.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color:  hsl(71, 73%, 54%);
+    border-radius: 5px;
+}
+
+.second-div{
+    background-image: linear-gradient(180deg, hsl(179, 62%, 43%), hsl(179, 63%, 58%));
+    padding: 20px;
+    border-bottom-right-radius: 5px;
+}
