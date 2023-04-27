@@ -1,4 +1,5 @@
 # Frontend Mentor - Single price grid component
+live server: https://the-user01.github.io/singlePriceCard-frontendMentor/
 
 ![Design preview for the Single price grid component coding challenge](./design/desktop-preview.jpg)
 
